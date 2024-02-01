@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+}
+
+.content {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #bbbbbb; /* Color gris oscuro */
+
+}
+
+.btn-container {
+    margin-top: 0px; /* Ajusta la distancia vertical de los botones */
+    text-align: center; /* Centra los botones horizontalmente */
+}
