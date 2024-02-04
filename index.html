@@ -15,38 +15,99 @@
 </head>
 <body>
  <!-- Navbar de Bootstrap -->
- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+ 
+ <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- Eliminamos la clase "container" -->
+      <!-- <div class="container"> -->
 
- <!--      <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">-->
+      <!-- Logo -->
+      <a class="navbar-brand mr-3" href="#">
+          <img src="./assets/img/viajes.svg" alt="Logo" height="30" class="d-inline-block align-top">
+      </a>
       
-   
-
-
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <!-- Nombre de la marca -->
+      <a class="navbar-brand mr-auto" href="#">Viajes Chile</a>
+      
+      <!-- Botón de hamburguesa para colapsar el menú en dispositivos pequeños -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#">Features</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </div>
-      </div>
-    </div>
+      
+      <!-- Menú de navegación -->
+      <div class="collapse navbar-collapse ml-auto" id="navbarNav">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"> 
+
+          <span class="navbar-toggler-icon"></span> 
+    
+        </button> 
+    
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> 
+    
+          <div class="navbar-nav"> 
+    
+            <a class="nav-link active" aria-current="page" href="#">Home</a> 
+    
+            <a class="nav-link" href="#">Features</a> 
+    
+            <a class="nav-link" href="#">Pricing</a> 
+    
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a> 
+    
+          </div> 
+    
+        </div> 
+    
+      </div> 
+    
+    </nav> 
+      <!-- </div> -->
   </nav>
-
-
-
+</div>
+<!--Tarjetas -->
 
 <div class="container">
-    <div class="content">
-        <img src="./assets/img/viajes.svg" alt="Viajes Chile" class="img-fluid">
-        <p>Sitio en Contrucción</p>
+  <div class="row">
+      <div class="col-sm-3">
+        <div class="card h-100" style="width: 18rem;">
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card h-100" style="width: 18rem;">
+                        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card h-100" style="width: 18rem;">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card h-100" style="width: 18rem;">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 
+
+
+ 
+ 
+ 
 
     </div>
     <!-- Footer -->
